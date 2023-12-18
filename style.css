@@ -1,0 +1,266 @@
+
+@media (max-width: 768px) {
+    h1 {
+      margin-top:-15px;
+        font-size: 20px;
+    }
+    .carousel-caption span
+    {
+      color: rgb(255, 255, 255);
+    }
+    .input-group
+    {
+        margin-top: 20px;
+    }
+    .input-group-text
+    {
+      font-size: 8px;
+    }
+    .form-control
+    {
+      background-color: rgba(255, 255, 255, 0.589);
+      font-size: 8px;
+      padding: 10px;
+      height: 20px;
+    }
+    .third
+    {
+        width: 300px;
+    }
+    .text-box {
+        width:500px;
+        top: 100%;
+        right: 0%;
+        padding: 20px; 
+        font-size: 13px;
+      }
+      .fourth
+      {
+        margin-top: 250px;
+      }
+      #fifth
+      {
+        margin-top: 0px;
+      }
+      .content2 .card
+      {
+        margin-bottom: 10px;
+      }
+      .content1 h1
+      {
+        font-size: 40px;
+      }
+      .content2 h1
+      {
+        font-size: 40px;
+      }
+
+    }
+
+  @media (min-width:800px) {
+    h1 {
+        font-size: 40px;
+    }
+    .carousel-caption span
+    {
+      color: rgb(20, 133, 37);
+    }
+    .input-group
+    {
+        margin-top: 50px;
+    }
+    .input-group-text
+    {
+      height: 40px;
+      padding: 10px;
+      font-size: 18px;
+      width: 40px;
+  }
+  .form-control
+    {
+      background-color: rgba(0, 0, 0, 0.276);
+      font-size: 15px;
+      padding: 20px;
+      height: 20px;
+      width: 18px;
+    }
+    .third
+    {
+        width: 700px;
+    }
+    .text-box {
+        width: 400px;
+        height: 280px;
+        top: 20%;
+        right: 70%;
+        padding: 35px; 
+        font-size: 14px;
+        text-align: justify;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .fourth
+      {
+        width: 100%;
+      }
+      .content1 h1
+      {
+        font-size: 60px;
+        margin-top: 60px;
+        padding: 40px;
+      }
+      .content2 h1
+      {
+        font-size: 60px;
+        padding: 20px;
+      }
+      .content1 img
+      {
+        width: 100%;
+        height: 100%;
+      }
+   
+  }
+    
+    .carousel img {
+    position: relative;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    }
+    
+    .carousel-caption
+    {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+        text-align: center;
+    }
+
+
+    .third {
+        position: relative; 
+      }
+      
+      .third img {
+        width: 100%;
+        height: auto; 
+        display: block;
+      }
+      .text-box {
+        position: absolute; 
+        background-color: aliceblue; 
+        color: rgb(0, 0, 0); 
+        z-index: 1;
+        border-radius: 6px;
+      }
+
+      .fourth {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .background-image {
+        background-size: cover; 
+        background-attachment: fixed;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        z-index: -1; 
+      }
+      
+      .content {
+        position: relative;
+        z-index: 1;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.596);
+      }
+
+      .card {
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+      .card:hover {
+        transform: translate(0, -10px); 
+      }
+      
+      .card-image {
+        position: relative;
+      }
+      
+      .card-image img {
+        width: 100%;
+        height: auto; 
+        display: block;
+      }
+      
+      .card-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .card-title {
+        font-size: 20px; 
+        margin: 0; 
+        color: #f9f4f4;
+        font-weight: bold;
+      }
+      
+      .content2 .card
+      {
+        border: none;
+        border-radius: 70px;
+      }
+      .icon
+      {
+        display: inline;
+        padding: 15px;
+        font-size: 20px;
+      }
+
+      .footer-icon{
+        padding: 30px;
+      }
+      .footer-content
+      {
+        padding: 13px;
+        margin-left: 25px;
+        font-size: 14px;
+      }
+      .google-play-button {
+        display: inline-block;
+        background-color: #000000; 
+        color: #fff; 
+        font-size: 16px;
+        padding: 10px 20px;
+        text-decoration: none;
+        border:1px solid rgba(128, 128, 128, 0.687);
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .google-play-button:hover {
+        background-color: #ffffff; 
+        color: black;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+   
+   
+
+      
